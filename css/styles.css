@@ -1,9 +1,5 @@
 
 /* estilos globales */
-<<<<<<< HEAD
-
-=======
->>>>>>> depurando-codigo
 html {
    font-size: 62.5%; /** Reset para REMS - 62.5 = 10px de 16px **/
 }
@@ -197,7 +193,6 @@ a {
 /* About */
 
 .about {
-<<<<<<< HEAD
    display: flex;
    margin-top: 40px;
    background-image: url(../img/bg-iconbox-1.jpg);
@@ -282,18 +277,4 @@ a {
  
 
 
- 
-=======
 
-   background-image: url(../img/bg-iconbox-1.jpg); 
-   background-color: red;
-}
-
-.items-about {
-   display: flex;
-}
-
-.items-about p {
-   color: aliceblue;
-}
->>>>>>> depurando-codigo
