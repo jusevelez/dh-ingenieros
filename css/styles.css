@@ -45,9 +45,16 @@ a {
    text-decoration: none;
 }
 
-  .contenedor {
+.contenedor {
    max-width: 120rem; /** = 1200px de ancho **/
    margin: 0 auto 0 auto;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.seccion {
+   margin-top: 4rem;
+   margin-bottom: 3rem;
 }
 
 .background-container {
@@ -157,7 +164,7 @@ a {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   margin-top: 40px;
+
    
 }
 
@@ -184,7 +191,7 @@ a {
 /* About */
 
 .about {
-   margin-top: 40px;
+
    background-image: url(../img/bg-iconbox-1.jpg); 
    background-color: red;
 }
