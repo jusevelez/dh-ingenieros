@@ -1,5 +1,9 @@
 
 /* estilos globales */
+html {
+   font-size: 62.5%; /** Reset para REMS - 62.5 = 10px de 16px **/
+}
+
 h1 {
    font-family: 'Saira Condensed', sans-serif;
    font-size: 60px;
@@ -41,13 +45,10 @@ a {
    text-decoration: none;
 }
 
-.container {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: repeat(7, auto);
-   justify-items: center;
-  }
-
+  .contenedor {
+   max-width: 120rem; /** = 1200px de ancho **/
+   margin: 0 auto 0 auto;
+}
 
 .background-container {
    display: flex;
@@ -185,4 +186,13 @@ a {
 .about {
    margin-top: 40px;
    background-image: url(../img/bg-iconbox-1.jpg); 
+   background-color: red;
+}
+
+.items-about {
+   display: flex;
+}
+
+.items-about p {
+   color: aliceblue;
 }
