@@ -140,8 +140,13 @@ a {
 /* Hero */
 
 .main-hero {
+   display: flex;
+   align-items: center;
   /* ojo con la ruta para no afectar en GHub pages */
   background-image: url(../img/main-hero.jpg); 
+  height: 80vh; 
+  background-size: cover;
+  background-position: center;
 }
 
 .main-hero h1 {
