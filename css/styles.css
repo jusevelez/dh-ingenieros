@@ -1,4 +1,5 @@
 
+
 /* estilos globales */
 html {
    font-size: 62.5%; /** Reset para REMS - 62.5 = 10px de 16px **/
@@ -43,6 +44,10 @@ li{
 
 a {
    text-decoration: none;
+}
+
+.is-white {
+   color: #ffffff;
 }
 
 .contenedor {
@@ -203,8 +208,20 @@ a {
 
 .items-about {
    display: flex;
+
 }
 
 .items-about p {
    color: aliceblue;
+
+}
+
+.about-image {
+   width: 370px;
+   height: auto;
+}
+
+.column-is {
+   width: 32%;
+   padding: 10px;
 }
